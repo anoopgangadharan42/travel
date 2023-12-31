@@ -1,0 +1,45 @@
+.carousel-slide{
+    width: 100%;
+    height: auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx9dinnwNw7MqQ6L0_CZc_5KIVfwADQt18EA&usqp=CAU);
+   background-size: cover;
+   background-attachment: fixed ;
+   text-align: center; 
+    
+}
+.container{
+    text-align: center;
+    
+ }
+
+ .card{
+   width: 100%;
+   height: auto;
+   text-align: center;
+
+
+ }
+ 
+.card-text-bg-dark{
+    width: 100%;
+    height: 250px;
+    background-image: url();
+   background-size: cover;
+   background-attachment: fixed ;
+   display: flex;
+
+}
+@media screen and (main-width: 480px) {
+      
+    body{
+        background-color: red;
+    }
+    p{
+        font-size: 1.5rem;
+        line-height: 1.34;
+ 
+    }
+    .container-fluid{
+        flex-wrap: wrap;
+    }
+ }
